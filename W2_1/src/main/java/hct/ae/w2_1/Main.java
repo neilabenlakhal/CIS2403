@@ -19,11 +19,20 @@ public class Main {
         // code = CB121   price= 1.5 stock=12
         
         Product first_product =new Product(); //default  
-        Product second_product = new Product("CB121", 1.5, 0);
-        second_product.checkAvaiability();
-        first_product.checkAvaiability();
+        Product second_product = new Product("CB121", 1.5, 0,5,"book");
+   
         
+        Product third = new Product ("CB111", 3.5,100,3,"pencil");
         
+        Product milk = new Product ("12", 7.3, 12,6,"milk");
+        
+second_product.checkAvailability2();
+
+System.out.println(second_product.checkAvailability());
+
+second_product.display();
+milk.checkAvailability(); // check the avaiability of the product milk
+milk.display(); // display the information of the product milk
     }
     
 }
