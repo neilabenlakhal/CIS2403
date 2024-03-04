@@ -27,7 +27,7 @@ public class W6_ArrayList {
     public static void main(String[] args) {
 
 // 1. Arrays: Fixed size collections
-        //String[] names= new String[25];
+        String[] names2= new String[25];
         String[] names = {"hend", "Rafeea", "Mariam"}; // 3 items 
 
         System.out.println(names[0]); //display hend
@@ -57,10 +57,28 @@ public class W6_ArrayList {
 
         // 2. ArrayLists: Dynamic size collections | size can change when we add items
         ArrayList<Integer> numbersList = new ArrayList<>();
-
+        //int[] numbersList= new Int[25];
         ArrayList<String> namesList = new ArrayList<>();
+        ArrayList<Boolean> answers = new ArrayList<>();
+        
+        ArrayList<Double> grades = new ArrayList<>();
+   
+        
+        grades.add(95.5);
+        grades.add(88.7);
+         grades.add(88.7);
 
-        namesList.add("hend");
+        
+        for (double g : grades) {
+
+            System.out.println("the student grade is : " + g);
+
+        }
+        
+        
+        
+
+        namesList.add("hend"); //names[0]="hend
         namesList.add("Rafeea");
         namesList.add("Mariam");
 
