@@ -8,7 +8,7 @@ package lab.pkg02;
 /**
  *
  */
-public class Lab02 {
+public class Main {
 
     /**
      * @param args the command line arguments
