@@ -8,7 +8,7 @@ package lab.pkg02;
 /**
  *
  */
-public class OnlineAccount { //Lab 04 Part 2 Task 1
+public class OnlineAccount { //Lab 06 Part 2 Task 1
     
     private String username;
     private String password;
