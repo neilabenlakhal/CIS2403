@@ -22,7 +22,10 @@ public class Clothing extends Product {//Lab 06 Task 1
    
      @Override
     public double calculateRetailPrice() {
-        return (price + price * vat) * 1.03; // Extra charge for clothing
+        double total_price = price + price * vat;
+        double extra_Charge = total_price*0.03; // 3% charge
+        return (total_price+extra_Charge);
+      //  return (price + price * vat) * 1.03; // Extra charge for clothing
     }
     
     public Clothing(String code, double price, int stock, double vat, String size, String material) {

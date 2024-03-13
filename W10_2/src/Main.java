@@ -15,6 +15,9 @@ public class Main {
      */
     public static void main(String[] args) {
         
+        Electronics e12 = new Electronics ("E11", 4.5, 45, 1.4, "MACOS", "removable");
+        e12.display();
+        
         //Lab 06 step 5 and 6
         
         Electronics e1 = new Electronics("E101-Phone", 2500.0, 32,0.05,"Android OS", "Lithium");

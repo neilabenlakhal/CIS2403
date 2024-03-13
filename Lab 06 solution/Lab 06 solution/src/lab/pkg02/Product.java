@@ -32,14 +32,14 @@ public class Product {
             return "Out of stock";
     }
     
-    public double retailPrice(){
+    public double CalculateRetailPrice(){
         return (price+price*vat);
     }
     
     public String toString(){
         return "\nCode: "+this.getCode()+"\nPrice: "+this.getPrice()+
                 "\nAvailability: "+this.checkAvailability()+
-                "\nRetail price: "+this.retailPrice();
+                "\nRetail price: "+this.CalculateRetailPrice();
     }
     
     public void display(){

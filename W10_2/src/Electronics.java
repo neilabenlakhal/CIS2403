@@ -20,9 +20,9 @@ public class Electronics extends Product { //Lab 06 Task 1
     }
 
     
-    @Override
+    @Override//annotation
     public double calculateRetailPrice() {
-        return (price + price * vat) * 1.1; // Extra charge for electronics
+        return (price + price * vat) * 1.10; // Extra charge for electronics
     }
     
     
