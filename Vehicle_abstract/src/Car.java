@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 
 /**
  *
@@ -18,14 +15,14 @@ class Car extends Vehicle {
     @Override
     void accelerate() {
         if (currentSpeed < maxSpeed)
-            currentSpeed += 10;
+            currentSpeed = currentSpeed+  10;
         System.out.println("Accelerating... Current speed: " + currentSpeed);
     }
  
     @Override
     void brake() {
         if (currentSpeed > 0)
-            currentSpeed -= 10;
+            currentSpeed = currentSpeed -10;
         System.out.println("Braking... Current speed: " + currentSpeed);
     }
 }
