@@ -2,7 +2,6 @@ package lab5;
 
 /**
  *
- * @author mwannous
  */
 public class OrderLine {
 
