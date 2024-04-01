@@ -2,7 +2,6 @@ package lab5;
 
 /**
  *
- * @author mwannous
  */
 public class Product {
     private int ID;
